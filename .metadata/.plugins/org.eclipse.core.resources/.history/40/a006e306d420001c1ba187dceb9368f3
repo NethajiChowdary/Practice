@@ -1,0 +1,17 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class ArraySort 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the Sentence:");
+		String array = scanner.nextLine();
+		in size 
+
+	}
+
+}

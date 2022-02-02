@@ -1,0 +1,33 @@
+import java.util.Scanner;
+
+public class ReverseAlternateCharacter 
+{
+	public String reverse(String stringName, int start , int end)
+	{
+		if(start == end)
+		{
+			return "";
+		}
+		String result = " ";
+		for(int i = start; i <= end; i++)
+		{
+			result = stringName.charAt(i) + result;
+		}
+		return result;
+	}
+	public String reverseAlternateCharacter(String stringName , int k)
+	{
+		if (k <= 0 || stringName.length() <= )
+	}
+	
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the String: ");
+		String stringName = scanner.nextLine();
+		System.out.println("Enter the Number: ");
+		int k = scanner.nextInt();
+		
+	}
+
+}

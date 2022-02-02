@@ -1,0 +1,18 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class ExcelColumnTitle {
+
+	static void excelColumnTitle(String columnNumber) {
+		StringBuilder columnName = new StringBuilder();
+		
+	}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		String columnNumber = scanner.nextLine();
+		excelColumnTitle(columnNumber);
+		scanner.close();
+	}
+
+}

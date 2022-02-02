@@ -1,0 +1,67 @@
+package com.bridgelabz;
+
+class sort_string
+
+    {
+
+        public static void main(String args[])throws IOException
+
+        {
+
+            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
+            System.out.println("Enter a sentence");
+
+            String s = br.readLine();
+
+            int spaces = 0;
+
+            for(int i=0; i<s.length(); i++)
+
+            {
+
+                if(s.charAt(i) == ' ') spaces++;
+
+            }
+
+            int words = spaces + 1;
+
+            String arr[] = new String[words];
+
+            int c = 0;
+17
+            for(int i=0; i<arr.length; i++)
+18
+            {
+19
+                if(arr[i] != ' ') arr[i] += s.charAt(c++);
+20
+            }
+21
+            for(int i=0; i<arr.length; i++)
+22
+            {
+23
+                for(int j=0; j<arr.length-1; j++)
+24
+                {
+25
+                    if(arr[j].length < arr[j+1].length)
+26
+                    {
+27
+                        int t = arr[j];
+28
+                        arr[j] = arr[j+1];
+29
+                        arr[j+1] = t;
+30
+                    }
+31
+                }
+32
+            }
+33
+        }
+34
+    }

@@ -1,0 +1,14 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class Palindrome 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner scanner = Scanner(System.in);
+		int n = scanner.nextInt();
+	}
+
+}

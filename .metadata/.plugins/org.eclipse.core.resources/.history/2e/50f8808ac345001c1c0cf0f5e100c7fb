@@ -1,0 +1,26 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class ExcelColumnTitle {
+
+	static void excelColumnTitle(int columnNumber) {
+		StringBuilder columnName = new StringBuilder();
+		while (columnNumber > 0) {
+			int reminder = columnNumber % 26;
+			
+			if (reminder == 0) {
+				columnName.append("Z");
+				columnNumber = columnNumber
+			}
+		}
+		
+	}
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		int columnNumber = scanner.nextInt();
+		excelColumnTitle(columnNumber);
+		scanner.close();
+	}
+
+}

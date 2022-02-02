@@ -1,0 +1,12 @@
+package com.bridgelabz;
+
+public class String 
+{
+	public static void main(String[] args)
+	{
+	 System.out.println("Enter the String:");
+	 char ch[] = str.toCharArray();
+	 String rev = "";
+	 for(int i = ch.length-1; i>)
+	}
+}

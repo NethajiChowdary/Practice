@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class DuplicateCharacter {
+
+	static void String(String stringName)
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		System.out.println("Enter the string: ");
+		String stringName = scanner.nextLine();
+	}
+
+}

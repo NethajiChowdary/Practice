@@ -1,0 +1,36 @@
+package com.bridgelabz;
+
+import java.util.Scanner;
+
+public class ArraySort 
+{
+
+	public static void main(String[] args) 
+	{
+		Scanner scanner = new Scanner(System.in);
+		int size = scanner.nextInt();
+		int[] array = new int[size];
+		int n = array.length;
+		System.out.println("Enter the Sentence:");
+		for( int i = 0; i < n; i++)
+		{
+			array[i] = scanner.nextInt();
+		}
+		
+		int temp =0;
+		for(int i =0; i < array.length; i++)
+		{
+			for (int j = i+1; j < array.length; j++ )
+			{
+				if array[i] = array[j];
+				{
+					
+				}
+			}
+		}
+		
+
+
+	}
+
+}

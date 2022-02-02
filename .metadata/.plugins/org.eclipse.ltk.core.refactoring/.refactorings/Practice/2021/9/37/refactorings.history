@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;com.bridgelabz.Bank&apos; to &apos;Program&apos;&#x0D;&#x0A;- Original project: &apos;Practice&apos;&#x0D;&#x0A;- Original element: &apos;com.bridgelabz.Bank&apos;&#x0D;&#x0A;- Renamed element: &apos;com.bridgelabz.Program&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Bank&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;com.bridgelabz{Bank.java[Bank" matchStrategy="1" name="Program" qualified="false" references="true" similarDeclarations="false" stamp="1631157097950" textual="false" version="1.0"/>
+</session>
